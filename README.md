@@ -30,7 +30,7 @@ jobs:
         run: |
           npm install
         ##   Here is this Action
-      - uses: ahwelgemoed/widget-build-monorepo-action@main
+      - uses: ahwelgemoed/mendix-widget-build-action-monorepo@main
         with:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           author_name: build-bot
